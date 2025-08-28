@@ -8,12 +8,4 @@
 **Nombre De la Rama:**
 `feature/lab3_CaballeroJuan_SanchezOscar_NuñezRobinson_2025-2`
 ---
-## Pruebas de ejecución (Lab 3 parte 1), parte 1.
-![alt text](docs/imagenes/pruebaEjecucion.png) 
----
-## Parte 2.
-![alt text](docs/imagenes/pruebaEjecucion1.png)
----
-## ✅ Retos Completados
-## Reto 1 ✅
-### Descripción :
+## ✅ Preguntas Iniciales
