@@ -17,6 +17,17 @@
 ## ✅ Retos Completados
 ## Reto 1 ✅
 ### Descripción :
+### Actores Principales: 
+- Banco registrado:
+Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
+- Abministrador del Sistema:
+Supervisa la informacion básica de las cuentas financieras, Abministra la gestion de cuentas financieras.
+- Clientes: 
+Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas. 
+
+
+
+
 
 
 
