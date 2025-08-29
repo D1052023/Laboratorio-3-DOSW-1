@@ -38,7 +38,7 @@
 • Actores Principales:
 
 Banco registrado: Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
-Abministrador del Sistema: Supervisa la información básica de las cuentas financieras, Abministra la gestion de cuentas financieras.
+
 Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas.
 
 
@@ -54,6 +54,11 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
 
 - Se debe realizar una prueba E2E para comprobar el sistema en su conjunto y que se pueda validar escenarios e historias para el usuario y brindarle una buena app para que confié en los sistemas bancario.
 
+## ✅ Retos Completados
+## Reto 2 ✅
+### Descripción :
+- Diagrama de contexto: Se conoce que actores interactuan y sus conexiones en el sistema de software.
+![alt text](docs/uml/DiagramaDeContexto.drawio.png)
 
 ---
 ## Historial de commits
