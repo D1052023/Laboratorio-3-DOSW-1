@@ -58,6 +58,7 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
 ## Reto 2 ✅
 ### Descripción :
 - Diagrama de contexto: Se conoce que actores interactuan y sus conexiones en el sistema de software.
+
 ![alt text](docs/uml/DiagramaDeContexto.drawio.png)
 
 ---
