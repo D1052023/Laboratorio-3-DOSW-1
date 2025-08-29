@@ -35,7 +35,13 @@
 - Permite realizar depositos a cuentas existentes.
 - Rechazar depositos que se hagan a cuentas inexistentes.
 
-<<<<<<< HEAD
+• Actores Principales:
+
+Banco registrado: Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
+Abministrador del Sistema: Supervisa la información básica de las cuentas financieras, Abministra la gestion de cuentas financieras.
+Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas.
+
+
 • Documenten las precondiciones necesarias para el sistema:
 
 - El Sistema debe tener un conjunto de reglas y código limpio implementado SOLID.
@@ -47,18 +53,6 @@
 - Refactorizamos el código y volvemos a realizar las pruebas usando Junit.
 
 - Se debe realizar una prueba E2E para comprobar el sistema en su conjunto y que se pueda validar escenarios e historias para el usuario y brindarle una buena app para que confié en los sistemas bancario.
-
-
-=======
-• Actores Principales:
-
-- Banco registrado:
-  Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
-- Abministrador del Sistema:
-  Supervisa la información básica de las cuentas financieras, Abministra la gestion de cuentas financieras.
-- Clientes:
-  Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas.
->>>>>>> 5a5f87a90e99a622088cf77984703fb5d9c58784
 
 
 ---
