@@ -17,21 +17,32 @@
 ## ✅ Retos Completados
 ## Reto 1 ✅
 ### Descripción :
-### Actores Principales: 
+• Identifiquen reglas de negocio:
+
+- El número de cuenta tiene que tener exactamente 10 dígitos.
+- La cuenta es válida si los dos primeros dígitos corrresponden a un banco registrado, por ejemplo 01 BANCOLOMBIA, 02 DAVIVIENDA
+- La cuenta no debe tener caracteres especiales ni letras.
+- Las cuentas deben ser únicas en el sistema.
+- Al momento de la creación de la cuenta el monto disponible se inicializa en cero.
+- Los depositos deben ser positivos.
+- Al  hacer un deposito a una cuenta no puede depositar si la cuenta no existe.
+
+• Definan las funcionalidades principales:
+
+- Crear una cuenta.
+-  Permite validar que el número de la cuenta creada cumpla con las reglas del negocio.
+- Permite verificar el saldo de una cuenta.
+- Permite realizar depositos a cuentas existentes.
+- Rechazar depositos que se hagan a cuentas inexistentes.
+
+• Actores Principales:
+
 - Banco registrado:
-Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
+  Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
 - Abministrador del Sistema:
-Supervisa la informacion básica de las cuentas financieras, Abministra la gestion de cuentas financieras.
-- Clientes: 
-Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas. 
-
-
-
-
-
-
-
-
+  Supervisa la información básica de las cuentas financieras, Abministra la gestion de cuentas financieras.
+- Clientes:
+  Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas.
 
 
 ---
