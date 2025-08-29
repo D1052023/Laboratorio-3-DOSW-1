@@ -66,6 +66,14 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
   - El banco provee cuentas y valida las transacciones de las cuentas.
 
 ![alt text](docs/uml/Diagrama de casos.png)
+- Historia de Usuario:
+  - Como Cliente, quiero Consultar el saldo de mi cuenta, para saber cuánto dinero tengo disponible.
+  - Como Cliente, quiero Crear una cuenta, para poder acceder a los servicios financieros.
+  - Como Cliente, quiero realizar depósitos, para aumentar el saldo disponible. 
+  - Como banco, quiero proveer los códigos de cuenta válidos, para aumentar el saldo disponible. 
+  - Como banco, quiero Validar las transacciones realizadas en las cuentas, para garantizar que sean seguras y autorizadas.
+
+
 
 ---
 ## Historial de commits
