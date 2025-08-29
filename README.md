@@ -61,6 +61,12 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
 
 ![alt text](docs/uml/DiagramaDeContexto.drawio.png)
 
+- Diagrama de Casos de Uso: Muestra quién usa el sistema y para qué lo puede usar. 
+  - Los clientes pueden validar, crear, consultar y realizar transacciones.
+  - El banco provee cuentas y valida las transacciones de las cuentas.
+
+![alt text](docs/uml/Diagrama de casos.png)
+
 ---
 ## Historial de commits
 e08c238 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Añadir historial de commits al README general | Robinson677  
