@@ -69,10 +69,19 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
 - Historia de Usuario:
   - Como Cliente, quiero Consultar el saldo de mi cuenta, para saber cuánto dinero tengo disponible.
   - Como Cliente, quiero Crear una cuenta, para poder acceder a los servicios financieros.
-  - Como Cliente, quiero realizar depósitos, para aumentar el saldo disponible. 
-  - Como banco, quiero proveer los códigos de cuenta válidos, para aumentar el saldo disponible. 
+  - Como Cliente, quiero realizar depósitos, para aumentar el saldo disponible.
+  - Como cliente, quiero validar/verificar mi número de cuenta antes de crearla, para asegurar que tiene el formato correcto y pertenece a un banco registrado.
+  - Como banco, quiero proveer los códigos de cuenta válidos, para aumentar el saldo disponible.
   - Como banco, quiero Validar las transacciones realizadas en las cuentas, para garantizar que sean seguras y autorizadas.
-
+- Atributos de calidad:
+![alt text](docs/uml/tablaExcel.png)
+  - Disponibilidad asegura acceso. 
+  - Rendimiento asegura rapidez. 
+  - Seguridad protege la información. 
+  - Usabilidad facilita el uso. 
+  - Mantenibilidad asegura mejoras y correcciones. 
+  - Escalabilidad asegura crecimiento.
+  - 
 - Driagrama de Clases:
 - ![alt text](docs/uml/Digrama_Clases_Reto2.png)
 
