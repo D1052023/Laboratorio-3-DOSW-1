@@ -73,6 +73,8 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
   - Como banco, quiero proveer los códigos de cuenta válidos, para aumentar el saldo disponible. 
   - Como banco, quiero Validar las transacciones realizadas en las cuentas, para garantizar que sean seguras y autorizadas.
 
+- Driagrama de Clases:
+- ![alt text](docs/uml/Digrama_Clases_Reto2.png)
 
 
 ---
