@@ -38,7 +38,9 @@
 • Actores Principales:
 
 Banco registrado: Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
+
 Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas.
+
 
 • Documenten las precondiciones necesarias para el sistema:
 
@@ -79,9 +81,9 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
   - Usabilidad facilita el uso. 
   - Mantenibilidad asegura mejoras y correcciones. 
   - Escalabilidad asegura crecimiento.
-  - 
-- Driagrama de Clases:
-- ![alt text](docs/uml/Digrama_Clases_Reto2.png)
+  -
+- ***Diagrama de Clases:***
+![alt text](docs/uml/Digrama_Clases_Reto2.png)
 
 
 ---
