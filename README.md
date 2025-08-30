@@ -57,11 +57,11 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
 ## ✅ Retos Completados
 ## Reto 2 ✅
 ### Descripción :
-- Diagrama de contexto: Se conoce que actores interactuan y sus conexiones en el sistema de software.
+- ***Diagrama de contexto:*** Se conoce que actores interactuan y sus conexiones en el sistema de software.
 
 ![alt text](docs/uml/DiagramaDeContexto.drawio.png)
 
-- Diagrama de Casos de Uso: Muestra quién usa el sistema y para qué lo puede usar. 
+- ***Diagrama de Casos de Uso:*** Muestra quién usa el sistema y para qué lo puede usar. 
   - Los clientes pueden validar, crear, consultar y realizar transacciones.
   - El banco provee cuentas y valida las transacciones de las cuentas.
 
@@ -73,7 +73,7 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
   - Como banco, quiero proveer los códigos de cuenta válidos, para aumentar el saldo disponible. 
   - Como banco, quiero Validar las transacciones realizadas en las cuentas, para garantizar que sean seguras y autorizadas.
 
-- Diagrama de Clases:
+- ***Diagrama de Clases:***
 ![alt text](docs/uml/Digrama_Clases_Reto2.png)
 
 
