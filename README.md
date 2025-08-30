@@ -37,14 +37,19 @@
 
 • Actores Principales:
 
-- Banco registrado: Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
-- Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas.
+Banco registrado: Son los usuarios que pueden crear cuentas, consultar salgo y Realizar depositos.
+Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seguro de perdidas.
+
 • Documenten las precondiciones necesarias para el sistema:
 
 - El Sistema debe tener un conjunto de reglas y código limpio implementado SOLID.
+
 - Se deben implementar pequeñas pruebas unitarias usando moks y stubs para asegurar que el código interno para el banco esté funcionando correctamente.
+
 - Diseñamos el código y casos de uso UML para el usuario en su cuenta bancaria.
+
 - Refactorizamos el código y volvemos a realizar las pruebas usando Junit.
+
 - Se debe realizar una prueba E2E para comprobar el sistema en su conjunto y que se pueda validar escenarios e historias para el usuario y brindarle una buena app para que confié en los sistemas bancario.
 
 ## ✅ Retos Completados
