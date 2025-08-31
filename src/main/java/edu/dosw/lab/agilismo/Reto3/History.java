@@ -16,17 +16,11 @@ public class History {
         return id;
     }
 
-    public String getActor() {
-        return actor;
-    }
 
     public String getDescription() {
         return description;
     }
 
-    public Integer getFinalScore() {
-        return finalScore;
-    }
 
     public void setFinalScore(Integer finalScore) {
         this.finalScore = finalScore;
@@ -34,6 +28,6 @@ public class History {
 
     @Override
     public String toString() {
-        return id + ": " + actor + " - " + description + "/n - Estimación final: " + (finalScore != null ? finalScore : "No asignada");
+        return id + ": " + actor + " - " + description + "- Estimación final: " + (finalScore != null ? finalScore : "No asignada");
     }
 }
