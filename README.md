@@ -94,6 +94,71 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
 
 ![alt text](docs/uml/Digrama_Clases_Reto2.png)
 
+
+## ✅ Retos Completados
+## Reto 3 ✅
+
+Evidencia codigo:
+
+![alt text](docs/imagenes/reto3_1.png)
+![alt text](docs/imagenes/reto3_2.png)
+![alt text](docs/imagenes/reto3_3.png)
+![alt text](docs/imagenes/reto3_4.png)
+![alt text](docs/imagenes/reto3_5.png)
+![alt text](docs/imagenes/reto3_6.png)
+
+📝 Entrada:
+
+**Caso que diverge:**
+
+![alt text](docs/imagenes/reto3_diverge.png)
+
+**Casos en los que estamos deacuerdo:**
+
+![alt text](docs/imagenes/reto3_entrada.png)
+
+📢 Salida:
+
+![Captura](docs/imagenes/reto3_salida.png)
+
+
+**Principios SOLID**
+
+***Single Responsibility Principle:***
+
+Hicimos que el codigo para que cada clase se encargara de su respectiva tarea.
+
+- History representa una historia de usuario.
+
+- Member representa a un integrante y su voto.
+
+- VotingService gestiona cómo se realizan los votos.
+
+- PlanningPoker organiza el proceso de votación.
+
+- EstimacionAutomatizada es el punto de entrada (ejecuta todo).
+
+
+***Open/Closed Principle:***
+
+- Si quieres agregar una nueva forma de votar como el promedio, mayoría simple, votos secretos solo se extiende VotingService.
+
+- No se tiene que modificar las demás clases PlanningPoker, History, etc solo enchufar la nueva estrategia.
+
+***Patrones de Diseño:***
+
+- Strategy :VotingService encapsula cómo se hace la votación. 
+
+
+- Facade EstimacionAutomatizada actúa como fachada:
+El usuario solo llama a ejecutar3(), y por dentro se maneja History, Member, VotingService y PlanningPoker.
+El cliente no necesita saber los detalles internos.
+
+***Scrum/Agile:***
+PLANNING POKER: Es una técnica ágil de estimación en la que todo el equipo asigna un número para votar por una historia, de manera colaborativa, el esfuerzo de una historia usando cartas con valores (generalmente la secuencia de Fibonacci).
+Se revelan todos los votos a la vez si hay diferencias, se diverge hasta llegar a un consenso.
+
+
 ---
 ## Historial de commits
 e08c238 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Añadir historial de commits al README general | Robinson677  
