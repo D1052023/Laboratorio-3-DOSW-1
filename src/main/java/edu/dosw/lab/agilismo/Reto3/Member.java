@@ -1,4 +1,4 @@
-package edu.dosw.lab;
+package edu.dosw.lab.agilismo.Reto3;
 
 import java.util.Arrays;
 import java.util.List;

@@ -21,7 +21,7 @@ public class VotingService {
 
     public int askForVoteMember(Member member, Scanner scanner){
         while(true) {
-            System.out.print("Ingrese voto de" + member.getName() + " (1,2,3,5,8,13): ");
+            System.out.print("Ingrese voto de " + member.getName() + " (1,2,3,5,8,13): ");
             String input = scanner.nextLine().trim();
             try{
                 int vo = Integer.parseInt(input);
