@@ -9,10 +9,14 @@
 `feature/lab3_CaballeroJuan_SanchezOscar_NuñezRobinson_2025-2`
 ---
 ## Pruebas de ejecución (Lab 3 parte 1), parte 1.
+
 ![alt text](docs/imagenes/pruebaEjecucion.png) 
+
 ---
 ## Parte 2.
+
 ![alt text](docs/imagenes/pruebaEjecucion1.png)
+
 ---
 ## ✅ Retos Completados
 ## Reto 1 ✅
@@ -61,11 +65,13 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
 
 ![alt text](docs/uml/DiagramaDeContexto.drawio.png)
 
-- Diagrama de Casos de Uso: Muestra quién usa el sistema y para qué lo puede usar. 
-  - Los clientes pueden validar, crear, consultar y realizar transacciones.
-  - El banco provee cuentas y valida las transacciones de las cuentas.
 
-![alt text](docs/uml/Diagrama de casos.png)
+- Diagrama de Casos de Uso: Muestra quién usa el sistema y para qué lo puede usar. 
+   - Los clientes pueden validar, crear, consultar y realizar transacciones.
+   - El banco provee cuentas y valida las transacciones de las cuentas.
+  
+![alt text](docs/uml/DiagramaDeCasos.png)
+
 - Historia de Usuario:
   - Como Cliente, quiero Consultar el saldo de mi cuenta, para saber cuánto dinero tengo disponible.
   - Como Cliente, quiero Crear una cuenta, para poder acceder a los servicios financieros.
@@ -74,17 +80,19 @@ Clientes: Provee numeros de cuentas, Garantiza la cuenta este asegurada a un seg
   - Como banco, quiero proveer los códigos de cuenta válidos, para aumentar el saldo disponible.
   - Como banco, quiero Validar las transacciones realizadas en las cuentas, para garantizar que sean seguras y autorizadas.
 - Atributos de calidad:
+
 ![alt text](docs/uml/tablaExcel.png)
+
   - Disponibilidad asegura acceso. 
   - Rendimiento asegura rapidez. 
   - Seguridad protege la información. 
   - Usabilidad facilita el uso. 
   - Mantenibilidad asegura mejoras y correcciones. 
   - Escalabilidad asegura crecimiento.
-  -
-- ***Diagrama de Clases:***
-![alt text](docs/uml/Digrama_Clases_Reto2.png)
 
+- ***Diagrama de Clases:***
+
+![alt text](docs/uml/Digrama_Clases_Reto2.png)
 
 ---
 ## Historial de commits
