@@ -3,10 +3,6 @@ package edu.dosw.lab.testing.Reto4;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-/**
- * Representa una transacción bancaria.
- * Principio SRP: solo gestiona datos de una operación (depósito, transferencia, etc.).
- */
 public class Transaction {
     private String id;
     private BigDecimal amount;

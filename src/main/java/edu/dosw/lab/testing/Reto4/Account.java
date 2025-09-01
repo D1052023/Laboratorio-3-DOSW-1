@@ -4,10 +4,6 @@ import edu.dosw.lab.testing.Reto4.Transaction;
 
 import java.math.BigDecimal;
 
-/**
- * Entidad Account (modelo).
- * Atributos y métodos básicos con getters/setters.
- */
 public class Account {
     private String id;
     private String email;

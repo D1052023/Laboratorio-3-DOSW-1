@@ -1,7 +1,7 @@
 package edu.dosw.lab.testing.Reto4;
 
 /**
- * Enum que representa los bancos afiliados.
+ * Enum que representa los bancos afiliados
  */
 public enum AffiliatedBank {
     BANCO_1("BANCOLOMBIA", "01"),
