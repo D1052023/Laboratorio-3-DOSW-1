@@ -1,7 +1,5 @@
 package edu.dosw.lab.testing.Reto4;
 
-import edu.dosw.lab.testing.Reto4.Transaction;
-
 import java.math.BigDecimal;
 
 public class Account {

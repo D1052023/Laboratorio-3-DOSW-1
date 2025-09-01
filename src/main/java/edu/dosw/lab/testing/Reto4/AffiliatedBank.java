@@ -22,4 +22,13 @@ public enum AffiliatedBank {
     public String getCode() {
         return code;
     }
+
+    public static boolean exists(String code) {
+        for (AffiliatedBank bank : values()) {
+            if (bank.getCode().equals(code)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
