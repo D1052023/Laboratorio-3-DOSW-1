@@ -1,6 +1,6 @@
 package edu.dosw.lab.testing.Reto4;
 
-
+import java.util.regex.Pattern;
 
 /**
  * Claseque permite validar una cuenta
