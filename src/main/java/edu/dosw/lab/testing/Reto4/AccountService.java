@@ -12,7 +12,7 @@ public class AccountService {
         this.validator = Objects.requireNonNull(validator);
     }
 
-    public Account createAccount(String id, String email, String fullName) {
+    public Account createAccount(String id, String email, String fullName, BigDecimal balance) {
         Account acc = new Account(id, email, fullName, BigDecimal.ZERO);
         if (!validator.isValid(acc)) {
             throw new IllegalArgumentException("Cuenta invalida");
