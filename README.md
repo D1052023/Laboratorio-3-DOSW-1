@@ -164,13 +164,16 @@ Se revelan todos los votos a la vez si hay diferencias, se diverge hasta llegar 
 
 Evidencia código de las clases modelo (getters y setters):
 
-![alt text](docs/imagenes/reto4_1.jpg)
-![alt text](docs/imagenes/reto4_2.jpg)
-![alt text](docs/imagenes/reto4_3.jpg)
-![alt text](docs/imagenes/reto4_4.jpg)
-![alt text](docs/imagenes/reto4_5.jpg)
-![alt text](docs/imagenes/reto4_6.jpg)
-![alt text](docs/imagenes/reto4_7.jpg)
+![alt text](docs/imagenes/reto4_1.png)
+![alt text](docs/imagenes/reto4_2.png)
+![alt text](docs/imagenes/reto4_3.png)
+![alt text](docs/imagenes/reto4_4.png)
+![alt text](docs/imagenes/reto4_5.png)
+![alt text](docs/imagenes/reto4_6.png)
+![alt text](docs/imagenes/reto4_7.png)
+![alt text](docs/imagenes/reto4_8.png)
+![alt text](docs/imagenes/reto4_14.png)
+![alt text](docs/imagenes/reto4_15.png)
 
 
 **Primer Ciclo TDD para AccountValidator:**
@@ -265,8 +268,44 @@ AccountService depende de abstracciones por las clases AccountRepository y Accou
 
 ---
 ## Historial de commits
-e08c238 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Añadir historial de commits al README general | Robinson677  
-908fef2 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Preguntas resueltas LAB03 | Robinson677  
-7303049 2025-08-28 | Parte 1 - Juan Pablo Caballero: Estructura de carpetas | Juan Pablo Caballero  
-ffa50aa 2025-08-28 | Parte 1 - Sanchez Oscar: Preparación del espacio de Trabajo | Oscar Sanchez  
-d413ee9 2025-08-28 | Initial commit | Oscar Sanchez
+d413ee9 2025-08-28 | Initial commit | oscar sanchez
+ffa50aa 2025-08-28 | Parte 1 - Sanchez Oscar: Preparación del espacio de Trabajo | Oscar Sanchez
+7303049 2025-08-28 | Parte 1 - Juan Pablo Caballero: Estructura de carpetas | Juan Pablo Caballero
+908fef2 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Preguntas resueltas LAB03 | Robinson677
+e08c238 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Añadir historial de commits al README general | Robinson677
+7a721c5 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Añadir historial de commits al README general | Robinson Steven Nuñez Portela
+a3dc6c4 2025-08-29 | Parte 2 - Reto #1: Juan Caballero - Identificando los 2 primeros requerimientos | Juan Pablo Caballero Castellanos
+655ebc1 2025-08-29 | Parte 2 - Reto #1 : OscarSanchez - Definicion Actores | Oscar
+5a5f87a 2025-08-29 | Parte 2 - Reto #1 : OscarSanchez - Definicion Actores | Oscar
+86955bd 2025-08-29 | Parte 2 – Reto #1 : Robinson Steven Nuñez Portela - Documentacion de las precondiciones necesarias para el sistema | Robinson Steven Nuñez Portela
+42b705d 2025-08-29 | Parte 2 – Reto #1 : Robinson Steven Nuñez Portela - Documentacion de las precondiciones necesarias para el sistema | Robinson Steven Nuñez Portela
+607648e 2025-08-29 | Parte 2 – Reto #1 : Robinson Steven Nuñez Portela - Documentacion de las precondiciones necesarias para el sistema | Robinson Steven Nuñez Portela
+c5b94c0 2025-08-29 | Parte 2 - Reto #2: Juan  Caballero - Diagrama de contexto | Juan Pablo Caballero Castellanos
+f3a69a2 2025-08-29 | Parte 2 - Reto #2: Juan  Caballero - Diagrama de contexto | Juan Pablo Caballero Castellanos
+12785ed 2025-08-29 | Parte 2 - Reto #2 : Oscar Sanchez - Diagrama de casos de usos | Oscar
+5a7c4f5 2025-08-29 | Parte 2 - Reto #2 : Oscar Sanchez - Historia de Usuario | Oscar
+9249f14 2025-08-29 | Parte 2 – Reto #2 : Robinson Steven Nuñez Portela - Diagrama de Clases Realizado | Robinson Steven Nuñez Portela
+a1a7ad0 2025-08-29 | Parte 2 - Reto #2 : Oscar Sanchez - Tabla Excel | oscar sanchez
+5e721b7 2025-08-29 | Parte 2 - Reto #1 : OscarSanchez - Definicion Actores | Oscar
+6ce240d 2025-08-29 | Pate 2 - Reto #1 : Oscar Sanchez - Reto culminado | oscar sanchez
+5762445 2025-08-29 | Parte 2 – Reto #2 : Robinson Steven Nuñez Portela - Mejorando readme | Robinson Steven Nuñez Portela
+b72df45 2025-08-30 | Parte2 - Reto#2: Oscar - Correccion README | oscar sanchez
+e7dd34d 2025-08-30 | Parte2 - Reto#2: Oscar - Correccion1 README | oscar sanchez
+9171533 2025-08-30 | Parte 2 - Reto#3 : Juan Caballero - manejo de la entrada | Juan Pablo Caballero Castellanos
+32c0693 2025-08-30 | Parte2 - Reto#2: Oscar Sanchez- Implementacion Integrantes | oscar sanchez
+b13b333 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Implementacion de la clase de Historias | Robinson Steven Nuñez Portela
+c9b441b 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Evidencias del Reto 3: Entrada/Salida y Explicaciones | Robinson Steven Nuñez Portela
+8fdba5f 2025-08-30 | Parte2 - Reto #3: Oscar Sanchez- Implementacion Integrantes | oscar sanchez
+0c7a285 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Implementacion de la clase de Historias | Robinson Steven Nuñez Portela
+17394be 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Evidencias del Reto 3: Entrada/Salida y Explicaciones | Robinson Steven Nuñez Portela
+b001e83 2025-08-31 | Merge branch 'feature/lab3_CaballeroJuan_SanchezOscar_NuñezRobinson_2025-2' of https://github.com/D1052023/Laboratorio-3-DOSW-1 into feature/lab3_CaballeroJuan_SanchezOscar_NuñezRobinson_2025-2 | oscar sanchez
+479f3a3 2025-08-31 | Parte 2 – Reto #4 : Robinson Steven Nuñez Portela - Estructurado de carpetas y definicion de clases | Robinson Steven Nuñez Portela
+3d7f2f2 2025-08-31 | Parte2 - Reto#4 : Oscar Sanchez - Implementacion getters y setters de las clases Account, AffiliatedBank y Transation | Oscar Sanchez
+838fe53 2025-08-31 | Parte 2 – Reto #4 : Robinson Steven Nuñez Portela - Implementacion setters y getters | Robinson Steven Nuñez Portela
+83ec34a 2025-09-01 | Parte 2 - Reto #4 : Juan Caballero - Pruebas en verde | Juan Pablo Caballero Castellanos
+18ee331 2025-09-02 | Parte 2 - Reto#4 : Juan Caballero - Pruebas en rojo (AccountService) | Juan Pablo Caballero
+b320a72 2025-09-02 | Parte 2 - Reto #4 : Robinson Steven Nuñez Portela - Clases de gestion de cuentas | Robinson Portela
+7d98a56 2025-09-02 | Parte 2 - Reto#4 : Juan Caballero - Pruebas en verde | Juan Pablo Caballero
+1cdae0d 2025-09-02 | Parte 2 - Reto#4 : Oscar Sanchez - Refactorización clases gestión de cuentas | Oscar Sanchez
+93cfbbd 2025-09-02 | Parte 2 - Reto#4 : Robinson Portela - Reto#4 culminado | Robinson Portela
+
