@@ -158,6 +158,110 @@ El cliente no necesita saber los detalles internos.
 PLANNING POKER: Es una técnica ágil de estimación en la que todo el equipo asigna un número para votar por una historia, de manera colaborativa, el esfuerzo de una historia usando cartas con valores (generalmente la secuencia de Fibonacci).
 Se revelan todos los votos a la vez si hay diferencias, se diverge hasta llegar a un consenso.
 
+---
+
+## Reto 4 ✅
+
+Evidencia código de las clases modelo (getters y setters):
+
+![alt text](docs/imagenes/reto4_1.jpg)
+![alt text](docs/imagenes/reto4_2.jpg)
+![alt text](docs/imagenes/reto4_3.jpg)
+![alt text](docs/imagenes/reto4_4.jpg)
+![alt text](docs/imagenes/reto4_5.jpg)
+![alt text](docs/imagenes/reto4_6.jpg)
+![alt text](docs/imagenes/reto4_7.jpg)
+
+
+**Primer Ciclo TDD para AccountValidator:**
+
+🔴 Rojo:
+
+![alt text](docs/imagenes/reto4_rojo1_Cuentas.png)
+
+🟢 Verde:
+
+***Evidencia código de la clase de Validar*** :
+
+![alt text](docs/imagenes/reto4_refactor1_Cuentas.png)
+
+***Pasan las pruebas luego de la implementación:***
+
+![alt text](docs/imagenes/reto4_verde1_Cuentas.jpg)
+
+
+♻️ Refactor: 
+
+![alt text](docs/imagenes/reto4_refactor0_Cuentas.png)
+![alt text](docs/imagenes/reto4_refactor2_Cuentas.png)
+
+
+---
+
+
+**Segundo Ciclo TDD para AccountService:**
+
+
+🔴 Rojo:
+
+![alt text](docs/imagenes/reto4_rojo1_Gestion.jpg)
+![alt text](docs/imagenes/reto4_rojo2_Gestion.jpg)
+![alt text](docs/imagenes/reto4_rojo3_Gestion.jpg)
+
+
+🟢 Verde:
+
+***Evidencia de codigo de Clases de Gestión de Cuentas:***
+
+![alt text](docs/imagenes/reto4_9.png)
+![alt text](docs/imagenes/reto4_10.png)
+![alt text](docs/imagenes/reto4_11.png)
+![alt text](docs/imagenes/reto4_12.png)
+![alt text](docs/imagenes/reto4_13.png)
+
+***Pasan las pruebas luego de la implementación:***
+
+![alt text](docs/imagenes/reto4_verde1_Gestion.png)
+
+
+♻️ Refactor:
+
+![alt text](docs/imagenes/reto4_refactor1_Gestion.png)
+![alt text](docs/imagenes/reto4_refactor2_Gestion.png)
+
+
+
+**Principios SOLID**
+
+***Single Responsibility Principle:***
+
+Hicimos que el codigo para que cada clase se encargara de su respectiva tarea.
+
+- Account la encargada de la informacion de los clientes 
+
+- AccountValidator verifica y valida que la cuenta creada por un usuario sea veridica 
+
+- FeatureManageAccount para la persistencia de memoria de las cuentas 
+
+- AccountService encargada de la gestión de las cuentas 
+
+***Dependency Injection:***
+AccountService depende de abstracciones por las clases AccountRepository y AccountValidator en lugar de implementaciones concretas
+
+
+**Patrones de Diseño:**
+
+- Templated method: En AccountService, los métodos como deposit o findAccount siguen un esqueleto fijo de pasos como validar, buscar una cuenta o modificar el estado
+
+
+***TDD***
+
+- Rojo 🔴 Primero escribimos pruebas unitarias para las funcionalidades principales 
+
+- Verde 🟢 Luego implementamos la logica para que ls pruebas pasaran 
+
+- Refactor ♻️ Una vez todo funcionaba entonces tratabamos de refactorizar y mejorar el codigo
+
 
 ---
 ## Historial de commits
