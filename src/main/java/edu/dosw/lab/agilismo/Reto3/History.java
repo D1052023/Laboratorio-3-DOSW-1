@@ -5,6 +5,7 @@ public class History {
     private final String actor;
     private final String description;
     private Integer finalScore;
+    
 
     public History(int id, String actor, String description) {
         this.id = id;
@@ -21,6 +22,9 @@ public class History {
         return description;
     }
 
+    public Integer getFinalScore() {
+        return finalScore;
+    }
 
     public void setFinalScore(Integer finalScore) {
         this.finalScore = finalScore;
