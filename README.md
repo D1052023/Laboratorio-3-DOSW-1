@@ -265,7 +265,64 @@ AccountService depende de abstracciones por las clases AccountRepository y Accou
 
 - Refactor ♻️ Una vez todo funcionaba entonces tratabamos de refactorizar y mejorar el codigo
 
+## Reto 5 ✅
 
+**Evidencia de Jacoco primera vez reto4:**
+
+¿Cuál es el porcentaje de cobertura de instrucciones y de ramas?
+
+![alt text](docs/imagenes/reto5_1.png)
+![alt text](docs/imagenes/reto5_3.png)
+El porcentaje de cobertura inicialmente fue de un total de 31% donde el reto 4 tenia cobertura de 62% en Missed Instruction y un 64% en Missed Branches
+En sus ramas las clases que menos tenian cobertura fueron BAKIFI y Transaction ya que sus pruebas fueron casi nulas
+
+¿Hay alguna línea o condición que las pruebas no cubrieron?
+No cubrieron BANKIFY y no se implementaron pruebas para el reto3
+
+**Evidencia de Jacoco reto4:**
+![alt text](docs/imagenes/reto5_2.png)
+![alt text](docs/imagenes/reto5_4.png)
+
+-Para mejorar la cobertura de JaCoCo tuvimos que añadir casos de prueba que no estaban contemplados inicialmente, como depósitos con monto nulo, depósitos acumulativos para verificar que el balance se actualice correctamente, y la validación de la transacción devuelta al hacer un depósito. También agregamos pruebas para escenarios de error, como intentar depositar en cuentas inexistentes o con valores inválidos.
+
+*TEST Reto 3:*
+![alt text](docs/imagenes/img.png)
+![alt text](docs/imagenes/img_1.png)
+![alt text](docs/imagenes/img_2.png)
+![alt text](docs/imagenes/img_3.png)
+![alt text](docs/imagenes/img_4.png)
+![alt text](docs/imagenes/img_5.png)
+![alt text](docs/imagenes/img_6.png)
+![alt text](docs/imagenes/img_7.png)
+![alt text](docs/imagenes/img_8.png)
+![alt text](docs/imagenes/img_9.png)
+![alt text](docs/imagenes/img_10.png)
+![alt text](docs/imagenes/img_11.png)
+![alt text](docs/imagenes/img_12.png)
+![alt text](docs/imagenes/img_13.png)
+![alt text](docs/imagenes/img_16.png)
+
+*TEST Reto 4:*
+![alt text](docs/imagenes/reto5_5.png)
+![alt text](docs/imagenes/reto5_6.png)
+![alt text](docs/imagenes/reto5_7.png)
+![alt text](docs/imagenes/reto5_8.png)
+![alt text](docs/imagenes/reto5_9.png)
+![alt text](docs/imagenes/reto5_10.png)
+![alt text](docs/imagenes/reto5_11.png)
+![alt text](docs/imagenes/reto5_12.png)
+![alt text](docs/imagenes/reto5_13.png)
+![alt text](docs/imagenes/reto5_14.png)
+![alt text](docs/imagenes/reto5_15.png)
+![alt text](docs/imagenes/reto5_16.png)
+
+*Cobertura Jacoco total:*
+
+![alt text](docs/imagenes/reto5_final.png)
+
+![alt text](docs/imagenes/reto5_0.png)
+
+![alt text](docs/imagenes/reto5_4.png)
 ---
 ## Historial de commits
 d413ee9 2025-08-28 | Initial commit | oscar sanchez
