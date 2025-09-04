@@ -265,6 +265,8 @@ AccountService depende de abstracciones por las clases AccountRepository y Accou
 
 - Refactor ♻️ Una vez todo funcionaba entonces tratabamos de refactorizar y mejorar el codigo
 
+--- 
+
 ## Reto 5 ✅
 
 **Evidencia de Jacoco primera vez reto4:**
@@ -272,20 +274,30 @@ AccountService depende de abstracciones por las clases AccountRepository y Accou
 ¿Cuál es el porcentaje de cobertura de instrucciones y de ramas?
 
 ![alt text](docs/imagenes/reto5_1.png)
+
+- **RTA:** El porcentaje de cobertura inicialmente fue de un 30% en Missed Instruction y un 36% en Missed Branches, para las clases AccountServiceTest y AccountValidatorTest.
+
 ![alt text](docs/imagenes/reto5_3.png)
-El porcentaje de cobertura inicialmente fue de un total de 31% donde el reto 4 tenia cobertura de 62% en Missed Instruction y un 64% en Missed Branches
-En sus ramas las clases que menos tenian cobertura fueron BAKIFI y Transaction ya que sus pruebas fueron casi nulas
+- Posteriormente, se aumentó el porcentaje total haciendo pruebas a más métodos incrementándolo un 62% en Missed Instruction y un 64% en Missed Branches
+Las clases que menos tenian cobertura fueron BANKIFI y Transaction ya que sus pruebas fueron casi nulas
 
 ¿Hay alguna línea o condición que las pruebas no cubrieron?
-No cubrieron BANKIFY y no se implementaron pruebas para el reto3
+- **RTA:** No se cubrio la clase de BANKIFY y no se implementaron pruebas para el reto3.
 
 **Evidencia de Jacoco reto4:**
 ![alt text](docs/imagenes/reto5_2.png)
 ![alt text](docs/imagenes/reto5_4.png)
 
--Para mejorar la cobertura de JaCoCo tuvimos que añadir casos de prueba que no estaban contemplados inicialmente, como depósitos con monto nulo, depósitos acumulativos para verificar que el balance se actualice correctamente, y la validación de la transacción devuelta al hacer un depósito. También agregamos pruebas para escenarios de error, como intentar depositar en cuentas inexistentes o con valores inválidos.
+**Mejoras:**
+- Para mejorar la cobertura de JaCoCo tuvimos que añadir casos de prueba que no estaban contemplados inicialmente, como depósitos con monto nulo, 
+depósitos acumulativos para verificar que el balance se actualice correctamente, 
+y la validación de la transacción devuelta al hacer un depósito. 
+También agregamos pruebas para escenarios de error, como intentar depositar en cuentas inexistentes o con valores inválidos.
 
-*TEST Reto 3:*
+---
+
+✅*TEST Reto 3:* 
+
 ![alt text](docs/imagenes/img.png)
 ![alt text](docs/imagenes/img_1.png)
 ![alt text](docs/imagenes/img_2.png)
@@ -302,7 +314,10 @@ No cubrieron BANKIFY y no se implementaron pruebas para el reto3
 ![alt text](docs/imagenes/img_13.png)
 ![alt text](docs/imagenes/img_16.png)
 
-*TEST Reto 4:*
+---
+
+✅*TEST Reto 4:* 
+
 ![alt text](docs/imagenes/reto5_5.png)
 ![alt text](docs/imagenes/reto5_6.png)
 ![alt text](docs/imagenes/reto5_7.png)
@@ -323,7 +338,9 @@ No cubrieron BANKIFY y no se implementaron pruebas para el reto3
 ![alt text](docs/imagenes/reto5_0.png)
 
 ![alt text](docs/imagenes/reto5_4.png)
+
 ---
+
 ## Historial de commits
 d413ee9 2025-08-28 | Initial commit | oscar sanchez
 ffa50aa 2025-08-28 | Parte 1 - Sanchez Oscar: Preparación del espacio de Trabajo | Oscar Sanchez
