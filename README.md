@@ -418,6 +418,7 @@ Token: sqa_82d59eb660134106374ac9 (Parte del token)
 - **RTA:** (JUAN PABLO CABALLERO): Considero que es importante ya que nos permite conocer el funcionamiento interno de nuestro código y al mismo tiempo nos permite verificar la experiencia del usuario validando la integridad de la información. Con ello nos permite identificar posibles errores o vulnerabilidades antes de que el software sea utilizado en el entorno donde se necesita.
 
 
+- **RTA:** (OSCAR ANDRES SANCHEZ PORRAS) Al realizar pruebas a un software es fundamental porque garantiza su calidad, verifican el cumplimiento de requisitos, detectan errores y vulnerabilidades antes de producción, reducen costos de mantenimiento, aseguran eficiencia y estabilidad, y aumentan la confianza de los usuarios al entregar un producto confiable.
 ## Historial de commits
 d413ee9 2025-08-28 | Initial commit | oscar sanchez
 ffa50aa 2025-08-28 | Parte 1 - Sanchez Oscar: Preparación del espacio de Trabajo | Oscar Sanchez
