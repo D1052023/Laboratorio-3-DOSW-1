@@ -31,7 +31,14 @@
 		<maven.compiler.target>17</maven.compiler.target>
   		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.release>17</maven.compiler.release>
+		
+    	<sonar.projectKey>library</sonar.projectKey>
+    	<sonar.projectName>library</sonar.projectName>
+    	<sonar.host.url>http://localhost:9000</sonar.host.url>
+    	<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+    	<sonar.coverage.exclusions>src//configurators/**</sonar.coverage.exclusions>
 	</properties>
+
 
 	<dependencies>
 		<dependency>
@@ -59,6 +66,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>4.0.0.4121</version>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>

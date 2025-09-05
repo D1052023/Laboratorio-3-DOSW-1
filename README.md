@@ -341,6 +341,83 @@ También agregamos pruebas para escenarios de error, como intentar depositar en 
 
 ---
 
+## ✅ Retos Completados
+## Reto 6 ✅
+### Descripción :
+
+- Descargamos la imagen de Docker:
+
+![alt text](docs/imagenes/Reto6_1.jpeg)
+
+---
+
+- Servicio de SonarQube:
+
+![alt text](docs/imagenes/Reto6_2.jpeg)
+
+---
+
+- Validamos su funcionamiento:
+
+![alt text](docs/imagenes/Reto6_3.jpeg)
+
+---
+
+- Ingresamos a SonarQube, cambiamos la contraseña y procedemos a generar el Token para lograr enviar el análisis:
+
+![alt text](docs/imagenes/Reto6_4.jpeg)
+
+Token: sqa_82d59eb660134106374ac9 (Parte del token)
+
+---
+
+- Luego instalamos SonarLint tanto en intellij como en visual studio code, a la vez se añadio el plugin de Sonar al archivo del pom:
+
+![alt text](docs/imagenes/Reto6_5.png)
+
+---
+
+- Añadimos las propiedades de Sonar y Jacoco:
+
+![alt text](docs/imagenes/Reto6_6.png)
+
+---
+
+- Generamos el reporte de JACOCO, para luego enviar el análisis a SonarQube:
+
+![alt text](docs/imagenes/Reto6_7.jpeg)
+
+![alt text](docs/imagenes/Reto6_8.jpeg)
+
+---
+
+- Generamos la integracion con sonar, teniendo en cuenta token generado:
+
+![alt text](docs/imagenes/Reto6_9.jpeg)
+
+![alt text](docs/imagenes/Reto6_10.jpeg)
+
+- Observamos el análisis creado en SonarQube:
+
+![alt text](docs/imagenes/Reto6_11.jpeg)
+
+![alt text](docs/imagenes/Reto6_12.jpeg)
+
+---
+
+- Al revisar el análisis de SonarQube en el apartado de (reliability), identificamos la clase que genera ese "bug" y determinamos que no afecta demasiado con la mantenibilidad ni el funcionamiento general del código. Se genera por la excepción en esa clase (NullPointerException):
+
+![alt text](docs/imagenes/Reto6_13.jpeg)
+
+---
+
+**Reflexión**:
+
+**¿Por qué considera que es importante realizar pruebas a un software diseñado?**
+
+- **RTA:** (JUAN PABLO CABALLERO): Considero que es importante ya que nos permite conocer el funcionamiento interno de nuestro código y al mismo tiempo nos permite verificar la experiencia del usuario validando la integridad de la información. Con ello nos permite identificar posibles errores o vulnerabilidades antes de que el software sea utilizado en el entorno donde se necesita.
+
+
 ## Historial de commits
 d413ee9 2025-08-28 | Initial commit | oscar sanchez
 ffa50aa 2025-08-28 | Parte 1 - Sanchez Oscar: Preparación del espacio de Trabajo | Oscar Sanchez
