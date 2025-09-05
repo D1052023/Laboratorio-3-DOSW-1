@@ -523,4 +523,5 @@ e43a8a1 2025-09-03 | Parte 2 – Reto #5 : Robinson Steven Nuñez Portela - Prue
 
 575065e 2025-09-04 | Parte 2 - reto #6 : Sanchez Oscar - Contestando pregunta | OSCAR SANCHEZ
 
+b905d74 2025-09-04 | Parte 2 – Reto #6 : Robinson Steven Nuñez Portela - Respuesta reflexión de usar pruebas y modificación Historial commits | Robinson Steven Nuñez Portela
 
