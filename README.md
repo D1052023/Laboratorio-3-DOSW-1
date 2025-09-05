@@ -419,45 +419,108 @@ Token: sqa_82d59eb660134106374ac9 (Parte del token)
 
 
 - **RTA:** (OSCAR ANDRES SANCHEZ PORRAS) Al realizar pruebas a un software es fundamental porque garantiza su calidad, verifican el cumplimiento de requisitos, detectan errores y vulnerabilidades antes de producción, reducen costos de mantenimiento, aseguran eficiencia y estabilidad, y aumentan la confianza de los usuarios al entregar un producto confiable.
+
+- **RTA:**  (ROBINSON STEVEN NUÑEZ): Lo considero importante por que asi evaluamos que nuestro codigo funcione como nosotros esperamos que funcionara,
+ademas queremos validar que todo funciona de acuerdo para el usuario y ofrecerle una experiencia segura
+para poder seguir manteniendo una relación de confianza en su integridad. Para eso se busca
+con las pruebas reducir errores tempranos y asi asegurarnos de la mantenibilidad del sistema.
+
+---
+
 ## Historial de commits
+
 d413ee9 2025-08-28 | Initial commit | oscar sanchez
+
 ffa50aa 2025-08-28 | Parte 1 - Sanchez Oscar: Preparación del espacio de Trabajo | Oscar Sanchez
+
 7303049 2025-08-28 | Parte 1 - Juan Pablo Caballero: Estructura de carpetas | Juan Pablo Caballero
+
 908fef2 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Preguntas resueltas LAB03 | Robinson677
+
 e08c238 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Añadir historial de commits al README general | Robinson677
+
 7a721c5 2025-08-28 | Parte 1 – Robinson Steven Nuñez Portela: Añadir historial de commits al README general | Robinson Steven Nuñez Portela
+
 a3dc6c4 2025-08-29 | Parte 2 - Reto #1: Juan Caballero - Identificando los 2 primeros requerimientos | Juan Pablo Caballero Castellanos
+
 655ebc1 2025-08-29 | Parte 2 - Reto #1 : OscarSanchez - Definicion Actores | Oscar
+
 5a5f87a 2025-08-29 | Parte 2 - Reto #1 : OscarSanchez - Definicion Actores | Oscar
+
 86955bd 2025-08-29 | Parte 2 – Reto #1 : Robinson Steven Nuñez Portela - Documentacion de las precondiciones necesarias para el sistema | Robinson Steven Nuñez Portela
+
 42b705d 2025-08-29 | Parte 2 – Reto #1 : Robinson Steven Nuñez Portela - Documentacion de las precondiciones necesarias para el sistema | Robinson Steven Nuñez Portela
+
 607648e 2025-08-29 | Parte 2 – Reto #1 : Robinson Steven Nuñez Portela - Documentacion de las precondiciones necesarias para el sistema | Robinson Steven Nuñez Portela
+
 c5b94c0 2025-08-29 | Parte 2 - Reto #2: Juan  Caballero - Diagrama de contexto | Juan Pablo Caballero Castellanos
+
 f3a69a2 2025-08-29 | Parte 2 - Reto #2: Juan  Caballero - Diagrama de contexto | Juan Pablo Caballero Castellanos
+
 12785ed 2025-08-29 | Parte 2 - Reto #2 : Oscar Sanchez - Diagrama de casos de usos | Oscar
+
 5a7c4f5 2025-08-29 | Parte 2 - Reto #2 : Oscar Sanchez - Historia de Usuario | Oscar
+
 9249f14 2025-08-29 | Parte 2 – Reto #2 : Robinson Steven Nuñez Portela - Diagrama de Clases Realizado | Robinson Steven Nuñez Portela
+
 a1a7ad0 2025-08-29 | Parte 2 - Reto #2 : Oscar Sanchez - Tabla Excel | oscar sanchez
+
 5e721b7 2025-08-29 | Parte 2 - Reto #1 : OscarSanchez - Definicion Actores | Oscar
+
 6ce240d 2025-08-29 | Pate 2 - Reto #1 : Oscar Sanchez - Reto culminado | oscar sanchez
+
 5762445 2025-08-29 | Parte 2 – Reto #2 : Robinson Steven Nuñez Portela - Mejorando readme | Robinson Steven Nuñez Portela
+
 b72df45 2025-08-30 | Parte2 - Reto#2: Oscar - Correccion README | oscar sanchez
+
 e7dd34d 2025-08-30 | Parte2 - Reto#2: Oscar - Correccion1 README | oscar sanchez
+
 9171533 2025-08-30 | Parte 2 - Reto#3 : Juan Caballero - manejo de la entrada | Juan Pablo Caballero Castellanos
+
 32c0693 2025-08-30 | Parte2 - Reto#2: Oscar Sanchez- Implementacion Integrantes | oscar sanchez
+
 b13b333 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Implementacion de la clase de Historias | Robinson Steven Nuñez Portela
+
 c9b441b 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Evidencias del Reto 3: Entrada/Salida y Explicaciones | Robinson Steven Nuñez Portela
+
 8fdba5f 2025-08-30 | Parte2 - Reto #3: Oscar Sanchez- Implementacion Integrantes | oscar sanchez
+
 0c7a285 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Implementacion de la clase de Historias | Robinson Steven Nuñez Portela
+
 17394be 2025-08-31 | Parte 2 – Reto #3 : Robinson Steven Nuñez Portela - Evidencias del Reto 3: Entrada/Salida y Explicaciones | Robinson Steven Nuñez Portela
+
 b001e83 2025-08-31 | Merge branch 'feature/lab3_CaballeroJuan_SanchezOscar_NuñezRobinson_2025-2' of https://github.com/D1052023/Laboratorio-3-DOSW-1 into feature/lab3_CaballeroJuan_SanchezOscar_NuñezRobinson_2025-2 | oscar sanchez
+
 479f3a3 2025-08-31 | Parte 2 – Reto #4 : Robinson Steven Nuñez Portela - Estructurado de carpetas y definicion de clases | Robinson Steven Nuñez Portela
+
 3d7f2f2 2025-08-31 | Parte2 - Reto#4 : Oscar Sanchez - Implementacion getters y setters de las clases Account, AffiliatedBank y Transation | Oscar Sanchez
+
 838fe53 2025-08-31 | Parte 2 – Reto #4 : Robinson Steven Nuñez Portela - Implementacion setters y getters | Robinson Steven Nuñez Portela
+
 83ec34a 2025-09-01 | Parte 2 - Reto #4 : Juan Caballero - Pruebas en verde | Juan Pablo Caballero Castellanos
+
 18ee331 2025-09-02 | Parte 2 - Reto#4 : Juan Caballero - Pruebas en rojo (AccountService) | Juan Pablo Caballero
+
 b320a72 2025-09-02 | Parte 2 - Reto #4 : Robinson Steven Nuñez Portela - Clases de gestion de cuentas | Robinson Portela
+
 7d98a56 2025-09-02 | Parte 2 - Reto#4 : Juan Caballero - Pruebas en verde | Juan Pablo Caballero
+
 1cdae0d 2025-09-02 | Parte 2 - Reto#4 : Oscar Sanchez - Refactorización clases gestión de cuentas | Oscar Sanchez
+
 93cfbbd 2025-09-02 | Parte 2 - Reto#4 : Robinson Portela - Reto#4 culminado | Robinson Portela
+
+ed0a4db 2025-09-02 | Parte 2 – Reto #4 : Robinson Steven Nuñez Portela - Mejora de la evidencia del reto 4 y ampliación historial de commits | Robinson Steven Nuñez Portela
+
+2e644e5 2025-09-03 | Parte 2 - Reto#5 : Juan Caballero - Pruebas reto 3 | Juan Pablo Caballero Castellanos
+
+e43a8a1 2025-09-03 | Parte 2 – Reto #5 : Robinson Steven Nuñez Portela - Pruebas reto 3 culminadas | Robinson Steven Nuñez Portela
+
+2e4cf43 2025-09-03 | Parte 2 - reto #5 : Sanchez Oscar - Reto 5 culminado | OSCAR SANCHEZ
+
+84776eb 2025-09-04 | Parte 2 - Reto #5: Juan Caballero - Evidencia README del Reto 5 | Juan Pablo Caballero Castellanos
+
+4698f96 2025-09-04 | Parte 2 - Reto #6 : Juan Caballero - Reto 6 cuminado y análisis generado | Juan Pablo Caballero Castellanos
+
+575065e 2025-09-04 | Parte 2 - reto #6 : Sanchez Oscar - Contestando pregunta | OSCAR SANCHEZ
+
 
